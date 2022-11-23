@@ -106,7 +106,7 @@ class Supplier: public Books//Takes and updates details about books from potenti
 	};
     void Intro()
     {
-    char intro[200] = "\t\t\t\tOOP Theory Project\n\t\t\tSubmitted By - Subhankar Ghosh\n\t\t\tRoll No : 21052200 " ;
+    char intro[200] = "\t\t\t\tOOP Theory Project\n\t\t\tSubmitted By - Subhankar Ghosh\n\t\t\t\tRoll No : 21052200 " ;
         for ( int i = 0; i < strlen(intro); i++)
         {
             cout << intro[i];
@@ -117,10 +117,10 @@ class Supplier: public Books//Takes and updates details about books from potenti
 	int main()
 	{
         Intro();
-	cout<<"Enter an option from below:"<<endl;
+	cout<<"\n\nEnter an option from below:"<<endl;
 	cout<<"1: SUPPLY A BOOK"<<endl;
 	cout<<"2: BUY A BOOK"<<endl;
-	cout<<"3:RENT A BOOK"<<endl;
+	cout<<"3: RENT A BOOK"<<endl;
 	cout<<"4: RETURN BOOK(PREVIOUSLY RENTED)"<<endl;
 	cout<<"5. EXIT"<<endl;
 	int op;
